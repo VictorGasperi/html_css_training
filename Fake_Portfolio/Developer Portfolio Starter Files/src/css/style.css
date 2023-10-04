@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Prata&display=swap');
+
+body
+{
+    overflow-x: hidden;
+}
+
+header
+{
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+
+}
+
+header li
+{
+    text-align: center;
+    display: inline;
+}
+
+header li a
+{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 15px;
+    padding: 13px;
+    position: relative;
+    right: 50px;
+}
+
+header li a:hover
+{
+    color: white;
+}
+
+header ul .contact a
+{
+    float: right;
+    position: relative;
+    top: -15px;
+    right: 50px;
+
+    color: black;
+    font-family: "Prata";
+    font-weight: 800;
+    background-color: rgb(197, 197, 120);
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
+header ul .contact a:hover
+{
+    color: rgb(197, 197, 120);
+    background-color: black;
+    box-shadow: 0 0 10px white;
+}
+
+header .my_name 
+{
+    color: white;
+    font-family: "Prata";
+    font-weight: 200;
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    float: left;
+    padding-left: 50px;
+}
+
+main 
+{
+    background-color: black;
+    color: white;
+}
+
+main .main_phrase
+{
+    position: relative;
+    right: -110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    max-width: 650px;
+    gap: 10px;
+}
+
+main .main_phrase h1
+{
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: 40px;
+}
+main .main_phrase p
+{
+    color: #8b8b8b;
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+main .companies ul 
+{
+    position: relative;
+    right: -140px;
+    display: flex;
+    flex-direction: row;
+    gap: 115px;   
+}
+
+main .examples 
+{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    gap: 150px;
+}
+main .examples img
+ {
+    position: relative;
+    right: 10px;
+    padding: 10px;
+ }
+
+main .examples h2
+{
+    font-family: "Prata";
+    font-weight: 400;
+}
+
+main .examples p
+{
+    color: #8b8b8b;
+    font-family: "Inter";
+    font-size: small;
+    padding-top: 10px;
+    max-width: 500px;
+}
+
+main .description
+{    
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 200px;
+}
+main .description div .text
+{
+    position: relative;
+    left: 40px;
+    max-height: 150px;
+}
+main .description div h2
+{
+    position: relative;
+    width: 380px;
+    bottom: 20px;
+    font-family: "Prata";
+    font-weight: 400;
+}
+
+main .description div p
+{
+    font-family: "Inter";
+    font-size: small;
+    color: #c7c6c6;
+    text-align: left;
+    padding-top: 20px;
+    width: 500px;
+}
+
+main .description .block_two
+{
+    position: relative;
+    bottom: 40px;
+    right: 5px;
+}
+
+main .interest
+{
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+    padding: 80px;
+}
+
+main .interest h2 
+{
+    font-family: "Prata";
+    font-weight: 400;
+}
+
+main .interest p
+{
+    color: #8b8b8b;
+    font-family: "Inter";
+    font-size: small;
+    max-width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .interest div a
+{
+    color: black;
+    font-family: "Prata";
+    font-weight: 800;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    background-color: rgb(197, 197, 120);
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+main .interest div a:hover
+{
+    color: rgb(197, 197, 120);
+    background-color: black;
+    box-shadow: 0 0 10px white;
+}
+
+footer
+{
+    background-color: rgb(36, 35, 35);
+    
+    align-items: center;
+    padding: 30px;
+}
+
+footer li 
+{
+    position: relative;
+    bottom: 10px;
+    right: 90px;
+    display: inline;
+    float: right;
+    padding-left: 15px;
+
+}
+
+footer li a
+{
+    text-decoration: none;
+}
+
+footer h3
+{
+    color: aliceblue;
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: medium;
+    position: relative;
+    left: 110px;
+    bottom: 10px;
+    float: left;
+}
+
